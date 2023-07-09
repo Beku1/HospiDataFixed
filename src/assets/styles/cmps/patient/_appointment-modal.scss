@@ -1,0 +1,69 @@
+.type-of-treatment-selector {
+  padding-top: 20px;
+  width:300px;
+  @media screen and (max-width: $normal-breakpoint) {
+  width:220px;
+ }
+}
+.MuiBox-root .css-1fpwgg0{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.css-lmu1if{
+  @media screen and (max-width: $normal-breakpoint) {
+   width:360px;
+   }
+}
+
+.to-doctor-selector {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width:300px;
+  @media screen and (max-width: $normal-breakpoint) {
+    width:220px;
+   }
+}
+
+.date-time-selector {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  p {
+    padding: 0 0 10px 0;
+  }
+}
+.make-appointment-btn {
+    margin-top: 30px;
+    background-color: #00D9A5;
+    padding:10px;
+    transition:0.3s;
+    &:disabled{
+      background-color: #89cebe;
+    }
+    &:hover:not(:disabled){
+      background-color:#12be96;  
+    }
+    }
+.appointment-modal-date{
+  .MuiButtonBase-root{
+       margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #fe0000ab;
+          padding: 10px;
+  }
+
+}
+
+.appoint-modal-title {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  h2 {
+    font-family: sans-serif;
+    color: $clr7;
+  }
+}

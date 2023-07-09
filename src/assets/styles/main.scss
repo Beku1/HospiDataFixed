@@ -1,0 +1,67 @@
+// Setup
+@import 'setup/variables';
+@import 'setup/functions';
+@import 'setup/mixins';
+@import 'setup/typography';
+
+// Basics
+@import 'basics/helpers';
+@import 'basics/layout';
+@import 'basics/base';
+@import 'basics/links';
+@import 'basics/forms';
+
+// Views
+@import 'views/home-page';
+@import 'views/doctor-page';
+@import 'views/about-us';
+@import 'views/patient-page';
+@import 'views/news';
+
+// Components
+// Main
+
+@import 'cmps/loder';
+
+// Admin
+@import 'cmps/app-header';
+@import 'cmps/app-footer';
+@import 'cmps/homepage/hero';
+@import 'cmps/homepage/card-list';
+@import 'cmps/homepage/card-prev';
+@import 'cmps/homepage/health-section';
+@import 'cmps/usersTamplate';
+@import 'views/admin-page';
+
+
+
+@import 'cmps/homepage/carousel';
+@import 'cmps/homepage/carousel-card';
+@import 'cmps/aboutUs/health-section';
+@import 'cmps/aboutUs/hero';
+@import 'cmps/aboutUs/carousel';
+@import 'cmps/aboutUs/carousel-card';
+// Patient
+
+@import 'cmps/patient/appointment-list';
+@import 'cmps/patient/lab';
+@import 'cmps/patient/medical-history';
+@import 'cmps/patient/appointments-table';
+@import 'cmps/patient/cancel-appointment';
+@import 'cmps/patient/appointment-modal';
+@import 'cmps/patient/lab-table';
+@import 'cmps/patient/medical-history-table';
+@import 'cmps/patient/inbox';
+@import 'cmps/patient/inbox-list';
+@import 'cmps/patient/inbox-prev';
+@import 'cmps/patient/history-modal';
+// Doctor
+@import 'cmps/doctor/patients';
+@import 'cmps/doctor/meetings';
+@import 'cmps/doctor/patientPage';
+@import 'cmps/doctor/viewDetailsModal';
+@import 'cmps/doctor/doc-calendar';
+
+
+// Last Scss
+@import 'cmps/table';

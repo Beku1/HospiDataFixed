@@ -1,0 +1,10 @@
+.carousel-card-container {
+    @media screen and (min-width: 1044px) {
+        .carousel-arrows {
+            display: none;
+        }
+    }
+    @media screen and (max-width: $normal-breakpoint) {
+        width: 100%;
+    }
+}
